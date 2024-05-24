@@ -6,6 +6,7 @@ import AddTodo from './components/AddTodo';
 import About from './components/pages/About';
 import uuid from 'uuid';
 import axios from 'axios';
+import Footer from './components/layout/Footer';
 
 import './App.css';
 
@@ -75,6 +76,7 @@ class App extends Component {
               )}
             />
             <Route path="/about" component={About} />
+            <Footer/>
           </div>
         </div>
       </Router>
